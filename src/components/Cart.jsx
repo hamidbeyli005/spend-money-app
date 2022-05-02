@@ -7,7 +7,7 @@ export default function Cart({ cart, total, setCart, setTotal }) {
     setTotal(0);
   };
   return (
-      <div>
+      <div className="Cart">
     <div className="cartDetail">
       <h3>Alışveriş detayları</h3>
       {cart.map((element) => (

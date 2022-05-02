@@ -111,52 +111,56 @@ justify-content: center;
     }
   }
 }
-.cartDetail {
-  height: 100%;
-  width: 96.5%;
-  background: #fff;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 15px 20px;
-  position: relative;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  h3 {
-    color: rgb(65, 65, 65);
-    margin-bottom: 5px;
-  }
-  .productName {
-    .amount {
-      color: green;
-      font-weight: 700;
-    }
-  }
-  .sum {
-    position: absolute;
-    bottom: 15px;
-    right: 20px;
-    color: green;
-    font-weight: 700;
-    font-size: 18px;
-  }
-  button {
-    height: 40px;
-    width: 150px;
-    padding: 10px 20px;
-    font-weight: 500;
-    font-size: 16px;
+.Cart{
     display: flex;
-    align-items: center;
     justify-content: center;
-    cursor: pointer;
-    margin-top: 6px;
-    color: #fff;
-    background: rgb(54, 134, 255);
-    border: none;
-    border-radius: 6px;
-    transition: all 300ms;
-    &:hover {
-      background: rgb(28, 119, 255);
-    }
-  }
+    align-items: center;
+    .cartDetail {
+        height: 100%;
+        width: 96.5%;
+        background: #fff;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 15px 20px;
+        position: relative;
+        margin-bottom: 30px;
+        h3 {
+          color: rgb(65, 65, 65);
+          margin-bottom: 5px;
+        }
+        .productName {
+          .amount {
+            color: green;
+            font-weight: 700;
+          }
+        }
+        .sum {
+          position: absolute;
+          bottom: 15px;
+          right: 20px;
+          color: green;
+          font-weight: 700;
+          font-size: 18px;
+        }
+        button {
+          height: 40px;
+          width: 150px;
+          padding: 10px 20px;
+          font-weight: 500;
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          margin-top: 6px;
+          color: #fff;
+          background: rgb(54, 134, 255);
+          border: none;
+          border-radius: 6px;
+          transition: all 300ms;
+          &:hover {
+            background: rgb(28, 119, 255);
+          }
+        }
+      } 
 }
+
