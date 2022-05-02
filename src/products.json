@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Book",
+        "price": 7,
+        "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRClBoYOxCM-aj0_Dqb7qSs_iW7kQ2YviOUtA&usqp=CAU"
+    },
+    {
+        "id": 2,
+        "name": "Iphone 11",
+        "price": 250,
+        "images":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-select-2019-family_GEO_EMEA?wid=882&hei=1058&fmt=jpeg&qlt=90&.v=1567022219953"
+    },
+    {
+        "id": 3,
+        "name": "Macbook",
+        "price": 1200,
+        "images":"https://cdn.cnn.com/cnnnext/dam/assets/211025072623-macbook-pro-14-display-5.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Car",
+        "price": 11500,
+        "images":"https://st2.myideasoft.com/idea/dh/91/myassets/products/252/dolu-akulu-araba-mavi-kumandali-8086-4591-jpg_min.jpeg?revision=1589283415"
+    }
+]
