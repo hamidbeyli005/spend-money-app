@@ -16,11 +16,11 @@ export default function Product({
       cart.reduce((acc, item) => {
         return acc + item.amount * item.price;
       }, 0)
-    );
+    )
     if (cart.length <= 0) {
       setCount(0);
     }
-  }, [cart]);
+  }, [setTotal,cart]);
 
   const addCart = (product) => {
     setCount(count + 1);
@@ -53,7 +53,7 @@ export default function Product({
   return (
     <div className="card">
       <div className="product">
-        <img src={product.images} />
+        <img src={product.images} alt="" />
         <h3>{product.name}</h3>
         <p>{product.price} $ </p>
         <div>
